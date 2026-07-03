@@ -1,0 +1,72 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Python caches and test output
+__pycache__/
+*.py[cod]
+*$py.class
+.mypy_cache/
+.my_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+ai-103/
+.venv/
+venv/
+env/
+ENV/
+labenv/
+uplevelenv/
+
+# Build and package output
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+wheels/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.bak
+*.backup
+
+# Azure and tooling state
+.azure/
+
+# Do not publish GitHub workflow/config folders from downloaded labs
+.github/
+**/.github/
+
+# Nested repositories from downloaded course material.
+# If you want to commit the lab contents into this repo instead of submodules,
+# remove the nested .git folders before running git add.
+**/.git/
+
+# Local/generated lab outputs
+output.txt
+analysis_results.json
+cpu_usage_over_time.png
+results.csv
+results*.csv
+results.jsonl
+system_performance.csv
