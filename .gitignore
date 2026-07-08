@@ -3,6 +3,8 @@
 .env.*
 !.env.example
 !.env.sample
+mslearn-ai-language/**/.env
+mslearn-ai-language/**/.env.*
 
 # Python caches and test output
 __pycache__/
